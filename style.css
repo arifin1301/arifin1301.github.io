@@ -1,0 +1,441 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif
+}
+
+.navbar {
+    display: flex;
+    padding: 20px 40px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 100px;
+    position: sticky;
+    top: 0px;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.inline {
+    display: inline-block;
+}
+
+.menu ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.menu ul li {
+    margin-right: 60px;
+    list-style-type: none;
+}
+
+.brand .dua {
+    background-color: cornflowerblue;
+    width: 25px;
+    height: 25px;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 25px;
+    line-height: 25px;
+    color: white;
+    margin-left: 3px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.signup {
+    margin-left: 30px;
+    padding: 0 10px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    background-color: rgba(1, 163, 243, 0.232);
+    border-radius: 7px;
+    font-weight: 600;
+    color: #2d2a40;
+}
+
+.signin {
+    font-weight: 600;
+}
+
+.jumbotron {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "kiri kanan";
+    width: 1300px;
+    margin: 0 auto;
+}
+
+.kiri {
+    grid-area: kiri;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    /* background-color: aliceblue; */
+}
+
+.kanan {
+    grid-area: kanan;
+    /* background-color: cornsilk; */
+}
+
+.kiri .media-sosial a {
+    margin-right: 15px;
+}
+
+.media-sosial a:hover {
+    color: #8BD4F5;
+}
+
+
+.media-sosial h3 {
+    margin-bottom: 10px;
+}
+
+.jumbotron .kanan .kotak {
+    width: 600px;
+    height: 500px;
+    border-radius: 20px;
+    background-image: url('img/poto.jpeg');
+    background-size: cover;
+}
+
+.jumbotron .kiri h1 {
+    font-size: 80px;
+    color: #2d2a40;
+}
+
+.jumbotron .kiri span {
+    font-weight: 200;
+    color: white;
+    font-size: 65px;
+    background-color: #8BD4F5;
+    padding: 3px 15px;
+    border-radius: 15px;
+}
+
+.jumbotron .kiri p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #8e879c94;
+    font-size: 25px;
+    font-weight: 10;
+}
+
+.jumbotron .kiri .atas {
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.jumbotron .kiri .penawaran {
+    font-size: 19px;
+    margin-top: 80px;
+    color: #14101ba4;
+}
+
+.jumbotron .kiri .form {
+    background-color: #e8e8e8b9;
+    height: 60px;
+    width: 350px;
+    border-radius: 10px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.jumbotron .kiri .form .btn {
+    height: 50px;
+    width: 100px;
+    background-color: cornflowerblue;
+    border: none;
+    border-radius: 10px;
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+.jumbotron .kiri .form .email {
+    width: 220px;
+    padding-left: 20px;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+}
+
+.produk {
+    background-color: #FCF8F9;
+    margin-top: 110px;
+    border-radius: 50px 50px 0 0;
+}
+
+.container {
+    width: 1300px;
+    padding-top: 100px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "kiri kanan";
+}
+
+.container .kiri {
+    grid-area: kiri;
+    display: flex;
+    flex-direction: row;
+}
+
+.container .kanan {
+    grid-area: kanan;
+    display: flex;
+    flex-direction: row;
+    padding-left: 50px;
+}
+
+.container .kiri span,
+.container .kanan span {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    text-align: center;
+    line-height: 100px;
+    font-size: 40px;
+}
+
+.container .kiri span {
+    background-color: navajowhite;
+}
+
+.container .kanan span {
+    background-color: #8BD4F5;
+}
+
+.container .kiri .section,
+.container .kanan .section {
+    margin-left: 50px;
+}
+
+.container .kiri .section p,
+.container .kanan .section p {
+    font-size: 12px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.container .kiri .section button,
+.container .kanan .section button {
+    width: 150px;
+    height: 40px;
+    border: none;
+    border-radius: 8px;
+    background-color: #EBF2F8;
+    color: cornflowerblue;
+}
+
+.showcase {
+    height: 700px;
+    margin-top: 100px;
+    border-radius: 50px 0 0 50px;
+    background-color: cornflowerblue;
+}
+
+.grid {
+    display: grid;
+    width: 1300px;
+    margin: 0 auto;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "kiri kanan";
+}
+
+.content {
+    grid-area: kiri;
+    padding-top: 100px;
+}
+
+.content p:nth-child(1) {
+    color: rgb(10, 55, 139);
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.content h1 {
+    font-size: 50px;
+    width: 500px;
+    color: white;
+    margin-bottom: 40px;
+}
+
+.content p:nth-child(3) {
+    color: whitesmoke;
+    width: 400px;
+    font-weight: 100;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 25px;
+}
+
+.content section {
+    margin-top: 50px;
+}
+
+.content section button:nth-child(1) {
+    background-color: rgb(19, 42, 85);
+    color: white;
+    height: 50px;
+    width: 200px;
+    border: none;
+    border-radius: 7px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+}
+
+.content section button:nth-child(2) {
+    background-color: rgba(255, 255, 255, 0.309);
+    color: white;
+    height: 50px;
+    width: 120px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: none;
+    border-radius: 7px;
+    font-size: 15px;
+    margin-left: 8px;
+}
+
+.grid .gambar {
+    grid-area: kanan;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+}
+
+.gambar .lingkaran {
+    width: 500px;
+    height: 500px;
+    background-color: rgb(68, 124, 227);
+    border-radius: 100px 20px;
+}
+
+.element-atas-card {
+    width: 1300px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.element-atas-card p {
+    color: cornflowerblue;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.element-atas-card h1 {
+    font-size: 50px;
+    width: 500px;
+    color: rgb(5, 19, 43);
+    margin-bottom: 80px;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1300px;
+    margin: 0 auto;
+}
+
+.card .satu,
+.card .tiga {
+    padding-top: 50px;
+}
+
+.card .dua {
+    padding: 50px;
+    background-color: white;
+    border-radius: 25px;
+    box-shadow: 0 5px 15px rgb(0 0 0 / 0.2);
+}
+
+.card .satu span,
+.card .dua span,
+.card .tiga span {
+    display: block;
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    line-height: 80px;
+    text-align: center;
+    font-size: 40px;
+    background-color: #EBC6D8;
+    margin-bottom: 30px;
+}
+
+.card .dua span {
+    background-color: #C2C1E3;
+}
+
+.card .tiga span {
+    background-color: #FFDDB8;
+}
+
+.satu .title h3,
+.dua .title h3,
+.tiga .title h3 {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.satu .title p,
+.dua .title p,
+.tiga .title p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 280px;
+    color: rgb(175, 175, 175);
+    line-height: 23px;
+    margin-bottom: 30px;
+}
+
+.satu button,
+.dua button,
+.tiga button {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 160px;
+    height: 50px;
+    font-size: 16px;
+    border: none;
+    background-color: #E9E9F5;
+    font-weight: 500;
+    border-radius: 7px;
+}
+
+.dua button {
+    background-color: #8BD4F5;
+    color: white;
+}
+
+footer {
+    background-color: rgb(36, 86, 181);
+    height: 350px;
+    margin-top: 200px;
+    border-radius: 80px 80px 0 0;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    padding-top: 70px;
+    justify-content: space-around;
+}
+
+footer h2 {
+    margin-bottom: 20px;
+}
+
+.interface ul li,
+.product ul li,
+.company ul li,
+.support ul li,
+.comunity ul li {
+    list-style-type: none;
+    margin-bottom: 17px;
+    color: #C2C1E3;
+}
